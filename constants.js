@@ -1,0 +1,6 @@
+var constants = {
+	ADD_CARD_TO_COLLECTION: "ADD_CARD_TO_COLLECTION",
+	REMOVE_CARD_FROM_COLLECTION: "REMOVE_CARD_FROM_COLLECTION" 
+};
+
+module.exports = constants;
