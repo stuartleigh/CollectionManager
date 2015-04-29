@@ -12,5 +12,4 @@ var foo = {
 
 };
 
-console.log("EXPORTING ACTIONS", typeof foo.addCardToCollection);
 module.exports = foo;

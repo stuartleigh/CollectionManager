@@ -6,6 +6,8 @@
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "dependencies": {
+    "fluxxor": "^1.5.3",
+    "lodash": "^3.7.0",
     "react-native": "^0.3.4"
   }
 }

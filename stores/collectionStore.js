@@ -1,10 +1,15 @@
 var Fluxxor = require("fluxxor");
 var constants = require("../constants");
 
+var _ = require('lodash');
+
 var CollectionStore = Fluxxor.createStore({
 	
 	initialize() {
-		this.cards = {};
+		this.state = {
+			gold: [],
+			normal: []
+		};
 
 		this.bindActions(
 			constants.ADD_CARD_TO_COLLECTION, this.onAddCard,
@@ -13,25 +18,20 @@ var CollectionStore = Fluxxor.createStore({
 	},
 
 	onAddCard(payload) {
-		var cardStats = this.getCard(payload.cardID);
-		payload.gold ? ++cardStats.gold : ++cardStats.normal;
-		this.cards[payload.cardID] = cardStats;
+		payload.gold ? this.state.gold.push(payload.cardID) : this.state.normal.push(payload.cardID);
 		this.emit("change");
 	},
 
 	onRemoveCard(payload) {
-		this.cards[payload.cardID] = {
-			gold: 0,
-			normal: 0
-		};
+		payload.gold ?
+			this.state.gold = _.without(this.state.gold, payload.cardID) :
+			this.state.normal = _.without(this.state.normal, payload.cardID);
 		this.emit("change");
 	},
 
-	getCard(cardID) {
-		return this.cards[cardID] || {
-			gold: 0,
-			normal: 0
-		};
+	getCount(card, gold) {
+		var cards = gold ? this.state.gold : this.state.normal;
+		return cards.filter(c => c === card.id).length
 	}
 });
 

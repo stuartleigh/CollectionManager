@@ -8,12 +8,13 @@ var styles = require('./styles');
 var actions = require('./actions')
 
 var CollectionStore = require('./stores/collectionStore');
+var CardStore = require('./stores/cardStore');
 
 var stores = {
+  CardStore: new CardStore(),
   CollectionStore: new CollectionStore()
 }
 
-console.log("HELLO ACTIONS", typeof actions.addCardToCollection);
 var flux = new Fluxxor.Flux(stores, actions);
 var FluxMixin = Fluxxor.FluxMixin(React);
 var StoreWatchMixin = Fluxxor.StoreWatchMixin;

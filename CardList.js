@@ -8,7 +8,7 @@ var {
   TouchableHighlight
 } = React;
 
-var Cards = require("./data/cards");
+
 var styles = require('./styles');
 
 var Fluxxor = require('fluxxor');
@@ -23,18 +23,38 @@ var Card = React.createClass({
 
   getStateFromFlux() {
     var flux = this.getFlux();
-    return flux.store('CollectionStore').getCard(this.props.card.id);
+    var store = flux.store('CollectionStore')
+    return {
+      gold: store.getCount(this.props.card, true),
+      normal: store.getCount(this.props.card, false)
+    }
+  },
+
+  handleGoldPress() {
+    typeof this.props.onPress === 'function' ? this.props.onPress(this.props.card, true) : null;
+  },
+
+  handleNormalPress() {
+    this.handlePress();
   },
 
   handlePress() {
-    typeof this.props.onPress === 'function' ? this.props.onPress(this.props.card) : null;
+    typeof this.props.onPress === 'function' ? this.props.onPress(this.props.card, false) : null;
   },
 
   render() {
-    return (
-      <TouchableHighlight style={styles.Card} onPress={this.handlePress}>
-        <Text>{this.props.card.name} ({this.props.gold ? this.state.gold : this.state.normal})</Text>
-      </TouchableHighlight>
+    var card = this.props.card;
+    return (<View>
+        <TouchableHighlight style={styles.Card} onPress={this.handlePress}>
+          <Text>{card.cost} {card.name}</Text>
+        </TouchableHighlight>
+        <TouchableHighlight style={styles.Card} onPress={this.handleNormalPress}>
+          <Text>({this.state.normal})</Text>
+        </TouchableHighlight>
+        <TouchableHighlight style={styles.Card} onPress={this.handleGoldPress}>
+          <Text>({this.state.gold})</Text>
+        </TouchableHighlight>
+      </View>
     )
   }
 
@@ -42,37 +62,35 @@ var Card = React.createClass({
 
 var CardList = React.createClass({
 
-  mixins: [FluxMixin],
-  
-  getInitialState() {
+  mixins: [FluxMixin, StoreWatchMixin("CardStore")],
+
+  getStateFromFlux() {
+    var flux = this.getFlux();
+    var cards = flux.store('CardStore').state;
     var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    return {
-      dataSource: ds.cloneWithRows(Cards),
-      gold: false
-    }
+    return ds.cloneWithRows(cards);
   },
 
-  handlePress(card) {
+  handlePress(card, gold) {
     var flux = this.getFlux();
-    var currentCard = flux.store('CollectionStore').getCard(card.id);
-    var currentCount = this.state.gold ? currentCard.gold : currentCard.normal;
+    var currentCount = flux.store('CollectionStore').getCount(card, gold);
 
     if ((card.rarity === 'legendary' && currentCount < 1) || (card.rarity !== 'legendary' && currentCount < 2)) {
-      flux.actions.addCardToCollection(card.id, this.state.gold);
+      flux.actions.addCardToCollection(card.id, gold);
     } else {
-      flux.actions.removeCardFromCollection(card.id, this.state.gold);
+      flux.actions.removeCardFromCollection(card.id, gold);
     }
   },
 
   renderCard(card) {
-    return <Card card={card} onPress={this.handlePress} gold={this.state.gold} />
+    return <Card card={card} onPress={this.handlePress} gold={false} />
   },
   
   render() {
     return (
       <View style={styles.CardList}>
         <ListView 
-          dataSource={this.state.dataSource}
+          dataSource={this.state}
           renderRow={this.renderCard} />
       </View>
     );
