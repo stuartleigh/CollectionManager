@@ -44,15 +44,26 @@ var Card = React.createClass({
 
   render() {
     var card = this.props.card;
-    return (<View>
-        <TouchableHighlight style={styles.Card} onPress={this.handlePress}>
-          <Text>{card.cost} {card.name}</Text>
+    return (<View style={styles.Card.Container}>
+        <TouchableHighlight onPress={this.handlePress}>
+          <View>
+            <View style={styles.Card.ManaCost}>
+              <Text>{card.cost}</Text>
+            </View>
+            <View>
+              <Text style={styles.Card.Name}>{card.name}</Text>
+            </View>
+          </View>
         </TouchableHighlight>
-        <TouchableHighlight style={styles.Card} onPress={this.handleNormalPress}>
-          <Text>({this.state.normal})</Text>
+        <TouchableHighlight onPress={this.handleNormalPress}>
+          <View style={styles.Card.NormalCount}>
+            <Text>{this.state.normal}</Text>
+          </View>
         </TouchableHighlight>
-        <TouchableHighlight style={styles.Card} onPress={this.handleGoldPress}>
-          <Text>({this.state.gold})</Text>
+        <TouchableHighlight onPress={this.handleGoldPress}>
+          <View style={styles.Card.GoldCount}>
+            <Text>({this.state.gold})</Text>
+          </View>
         </TouchableHighlight>
       </View>
     )
@@ -88,7 +99,7 @@ var CardList = React.createClass({
   
   render() {
     return (
-      <View style={styles.CardList}>
+      <View style={styles.CardList.Container}>
         <ListView 
           dataSource={this.state}
           renderRow={this.renderCard} />

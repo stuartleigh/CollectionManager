@@ -7,16 +7,32 @@ var {
   ListView
 } = React;
 
-var styles = StyleSheet.create({
+var Container = StyleSheet.create({
   Container: {
     flex: 1
   },
-  CardList: {
-    flex: 1,
-  },
-  Card: {
-    backgroundColor: '#F5FCFF',
-  },
 });
 
-module.exports = styles;
+var CardList = StyleSheet.create({
+  Container: {
+    flex: 1
+  }
+});
+
+var Card = StyleSheet.create({
+  Container: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'stretch'
+  },
+  ManaCost: {},
+  Name: {},
+  NormalCount: {},
+  GoldCount: {}
+})
+
+module.exports = {
+  Card: Card,
+  Container: Container,
+  CardList: CardList
+};
