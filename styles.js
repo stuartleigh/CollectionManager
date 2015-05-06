@@ -1,10 +1,6 @@
 var React = require('react-native');
 var {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  ListView
+  StyleSheet
 } = React;
 
 var Container = StyleSheet.create({
@@ -23,12 +19,36 @@ var Card = StyleSheet.create({
   Container: {
     flex: 1,
     flexDirection: 'row',
-    alignItems: 'stretch'
+    borderBottomColor: '#c5c5c5',
+    borderBottomWidth: 1,
   },
-  ManaCost: {},
-  Name: {},
-  NormalCount: {},
-  GoldCount: {}
+  ManaCost: {
+    padding: 10,
+    width: 40,
+  },
+  ManaCost__Cost: {
+    textAlign: 'center',
+  },
+  Name: {
+    flex: 1,
+    padding: 10,
+  },
+  Name__Name: {
+  },
+  NormalCount: {
+    padding: 10,
+    width: 40,
+  },
+  NormalCount__Count: {
+    textAlign: 'center',
+  },
+  GoldCount: {
+    padding: 10,
+    width: 40,
+  },
+  GoldCount__Count: {
+    textAlign: 'center',
+  },
 })
 
 module.exports = {
