@@ -5,11 +5,13 @@ var {
   Text,
   View,
   ListView,
+  Image,
   TouchableHighlight
 } = React;
 
 
 var styles = require('./styles');
+// var assets = require('./assets');
 
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -44,12 +46,17 @@ var Card = React.createClass({
 
   render() {
     var card = this.props.card;
-    return (<View style={styles.Card.Container}>
-        <TouchableHighlight onPress={this.handlePress} style={styles.Card.ManaCost}>
-          <Text style={styles.Card.ManaCost__Cost}>{card.cost}</Text>
-        </TouchableHighlight>
-        <TouchableHighlight onPress={this.handlePress} style={styles.Card.Name}>
-          <Text style={styles.Card.Name__Name}>{card.name}</Text>
+    return (
+      <View style={styles.Card.Container}>
+        <TouchableHighlight onPress={this.handlePress} style={styles.Card.NameWrapper}>
+          <View style={styles.Card.NameContainer}>
+            <Image source={require('image!mana')} style={styles.Card.ManaImage}>
+              <Text style={styles.Card.ManaCost__Cost}>{card.cost}</Text>
+            </Image>
+            <View style={styles.Card.Name}>
+              <Text style={styles.Card.Name__Name}>{card.name}</Text>
+            </View>
+          </View>
         </TouchableHighlight>
         <TouchableHighlight onPress={this.handleNormalPress} style={styles.Card.NormalCount}>
           <Text style={styles.Card.NormalCount__Count}>{this.state.normal}</Text>

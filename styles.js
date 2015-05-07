@@ -22,12 +22,26 @@ var Card = StyleSheet.create({
     borderBottomColor: '#c5c5c5',
     borderBottomWidth: 1,
   },
+  NameContainer: {
+    flex: 1,
+    flexDirection: 'row',
+  },
+  NameWrapper: {
+    flex: 1,
+    flexDirection: 'row',
+  },
+  ManaImage: {
+    width: 46,
+    height: 40,
+    backgroundColor: 'transparent'
+  },
   ManaCost: {
     padding: 10,
     width: 40,
   },
   ManaCost__Cost: {
     textAlign: 'center',
+
   },
   Name: {
     flex: 1,
