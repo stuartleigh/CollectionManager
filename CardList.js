@@ -11,7 +11,6 @@ var {
 
 
 var styles = require('./styles');
-// var assets = require('./assets');
 
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -47,16 +46,12 @@ var Card = React.createClass({
   render() {
     var card = this.props.card;
     return (
-      <View style={styles.Card.Container}>
-        <TouchableHighlight onPress={this.handlePress} style={styles.Card.NameWrapper}>
-          <View style={styles.Card.NameContainer}>
-            <Image source={require('image!mana')} style={styles.Card.ManaImage}>
-              <Text style={styles.Card.ManaCost__Cost}>{card.cost}</Text>
-            </Image>
-            <View style={styles.Card.Name}>
-              <Text style={styles.Card.Name__Name}>{card.name}</Text>
-            </View>
-          </View>
+      <View style={styles.Card[this.state.normal + this.state.gold < card.maxCount ? 'Container--deactive' : 'Container']}>
+        <View style={styles.Card['ManaCost--' + card.rarity]}>
+          <Text style={styles.Card.ManaCost__Cost}>{card.cost}</Text>
+        </View>
+        <TouchableHighlight onPress={this.handlePress} style={styles.Card.Name}>
+          <Text style={styles.Card.Name__Name}>{card.name}</Text>
         </TouchableHighlight>
         <TouchableHighlight onPress={this.handleNormalPress} style={styles.Card.NormalCount}>
           <Text style={styles.Card.NormalCount__Count}>{this.state.normal}</Text>
@@ -85,7 +80,7 @@ var CardList = React.createClass({
     var flux = this.getFlux();
     var currentCount = flux.store('CollectionStore').getCount(card, gold);
 
-    if ((card.rarity === 'legendary' && currentCount < 1) || (card.rarity !== 'legendary' && currentCount < 2)) {
+    if (currentCount < card.maxCount) {
       flux.actions.addCardToCollection(card.id, gold);
     } else {
       flux.actions.removeCardFromCollection(card.id, gold);
