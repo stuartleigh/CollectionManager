@@ -20,15 +20,15 @@ var Card = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     borderBottomColor: '#000000',
-    borderBottomWidth: 1,
-    backgroundColor: '#262626',
+    borderBottomWidth: 2,
+    backgroundColor: '#1F2636',
   },
   'Container--deactive': {
     flex: 1,
     flexDirection: 'row',
     borderBottomColor: '#000000',
-    borderBottomWidth: 1,
-    backgroundColor: '#262626',
+    borderBottomWidth: 2,
+    backgroundColor: '#1F2636',
     opacity: 0.7,
   },
   'ManaCost--free': {
@@ -44,17 +44,17 @@ var Card = StyleSheet.create({
   'ManaCost--rare': {
     padding: 10,
     width: 40,
-    backgroundColor: '#4A87D8',
+    backgroundColor: '#3D74FF',
   },
   'ManaCost--epic': {
     padding: 10,
     width: 40,
-    backgroundColor: '#AF4AC0',
+    backgroundColor: '#8746FF',
   },
   'ManaCost--legendary': {
     padding: 10,
     width: 40,
-    backgroundColor: '#CF8522',
+    backgroundColor: '#FF872F',
   },
   ManaCost__Cost: {
     textAlign: 'center',
@@ -81,7 +81,7 @@ var Card = StyleSheet.create({
   GoldCount: {
     padding: 10,
     width: 40,
-    backgroundColor: '#FFC921',
+    backgroundColor: '#FFD938',
   },
   GoldCount__Count: {
     textAlign: 'center',
