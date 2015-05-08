@@ -1,3 +1,7 @@
 var DruidCards = require('./druid');
+var WarriorCards = require('./warrior');
 
-module.exports = DruidCards;
+module.exports = {
+	Druid: DruidCards,
+	Warrior: WarriorCards
+}

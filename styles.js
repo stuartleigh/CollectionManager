@@ -11,7 +11,24 @@ var Container = StyleSheet.create({
 
 var CardList = StyleSheet.create({
   Container: {
-    flex: 1
+    flex: 1,
+    borderColor: '#1F2636',
+    borderLeftWidth: 10,
+    borderRightWidth: 10,
+  },
+  SectionHeader: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: '#1F2636',
+    borderBottomColor: '#000000',
+    borderBottomWidth: 1,
+    borderTopColor: '#3C4866',
+    borderTopWidth: 1,
+  },
+  SectionHeader__Text: {
+    textAlign: 'center',
+    color: '#ffffff',
+    fontWeight: 'bold',
   }
 });
 
@@ -20,16 +37,20 @@ var Card = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     borderBottomColor: '#000000',
-    borderBottomWidth: 2,
+    borderBottomWidth: 1,
+    borderTopColor: '#3C4866',
+    borderTopWidth: 1,
     backgroundColor: '#1F2636',
   },
   'Container--deactive': {
     flex: 1,
     flexDirection: 'row',
     borderBottomColor: '#000000',
-    borderBottomWidth: 2,
+    borderBottomWidth: 1,
+    borderTopColor: '#3C4866',
+    borderTopWidth: 1,
     backgroundColor: '#1F2636',
-    opacity: 0.7,
+    opacity: 0.8,
   },
   'ManaCost--free': {
     padding: 10,

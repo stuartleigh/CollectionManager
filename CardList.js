@@ -72,8 +72,11 @@ var CardList = React.createClass({
   getStateFromFlux() {
     var flux = this.getFlux();
     var cards = flux.store('CardStore').state;
-    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    return ds.cloneWithRows(cards);
+    var ds = new ListView.DataSource({
+      rowHasChanged: (r1, r2) => r1 !== r2,
+      sectionHeaderHasChanged: (h1, h2) => h1 !== h2
+    });
+    return ds.cloneWithRowsAndSections(cards);
   },
 
   handlePress(card, gold) {
@@ -90,13 +93,22 @@ var CardList = React.createClass({
   renderCard(card) {
     return <Card card={card} onPress={this.handlePress} gold={false} />
   },
+
+  renderSectionHeader(sectionData, sectionID) {
+    return (
+      <View style={styles.CardList.SectionHeader}>
+        <Text style={styles.CardList.SectionHeader__Text}>{sectionID}</Text>
+      </View>
+    );
+  },
   
   render() {
     return (
       <View style={styles.CardList.Container}>
         <ListView 
           dataSource={this.state}
-          renderRow={this.renderCard} />
+          renderRow={this.renderCard}
+          renderSectionHeader={this.renderSectionHeader} />
       </View>
     );
   }
