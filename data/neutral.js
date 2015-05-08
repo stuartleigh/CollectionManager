@@ -27,7 +27,30 @@ var reward = [
 	},
 ];
 
-var promotion = [];
+var promotion = [
+	{
+		id: "neutralXX",         // update
+		name: "Elite Tauren Chieftain",
+		class: "Neutral",
+		type: "minion",
+		cost: 5,
+		set: "Classic",
+		tribe: null,
+		rarity: "legendary",
+		maxCount: 1,
+	},
+	{
+		id: "neutralXX",         // update
+		name: "Gelbin Mekkatorque",
+		class: "Neutral",
+		type: "minion",
+		cost: 6,
+		set: "Classic",
+		tribe: null,
+		rarity: "legendary",
+		maxCount: 1,
+	},
+];
 
 var naxxramas = [];
 
