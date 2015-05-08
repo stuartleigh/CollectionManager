@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "mage01",
+		id: "mage001",
 		name: "Arcane Explosion",
 		class: "Mage",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage02",
+		id: "mage002",
 		name: "Arcane Intellect",
 		class: "Mage",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage03",
+		id: "mage003",
 		name: "Arcane Missiles",
 		class: "Mage",
 		type: "spell",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage04",
+		id: "mage004",
 		name: "Fireball",
 		class: "Mage",
 		type: "spell",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage05",
+		id: "mage005",
 		name: "Flamestrike",
 		class: "Mage",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage06",
+		id: "mage006",
 		name: "Frost Nova",
 		class: "Mage",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage07",
+		id: "mage007",
 		name: "Frostbolt",
 		class: "Mage",
 		type: "spell",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage08",
+		id: "mage008",
 		name: "Mirror Image",
 		class: "Mage",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage09",
+		id: "mage009",
 		name: "Polymorph",
 		class: "Mage",
 		type: "spell",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage10",
+		id: "mage010",
 		name: "Water Elemental",
 		class: "Mage",
 		type: "minion",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "mage11",
+		id: "mage011",
 		name: "Archmage Antonidas",
 		class: "Mage",
 		type: "minion",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "mage12",
+		id: "mage012",
 		name: "Blizzard",
 		class: "Mage",
 		type: "spell",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage13",
+		id: "mage013",
 		name: "Cone of Cold",
 		class: "Mage",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage14",
+		id: "mage014",
 		name: "Counterspell",
 		class: "Mage",
 		type: "spell",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage15",
+		id: "mage015",
 		name: "Ethereal Arcanist",
 		class: "Mage",
 		type: "minion",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage16",
+		id: "mage016",
 		name: "Ice Barrier",
 		class: "Mage",
 		type: "spell",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage17",
+		id: "mage017",
 		name: "Ice Block",
 		class: "Mage",
 		type: "spell",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage18",
+		id: "mage018",
 		name: "Ice Lance",
 		class: "Mage",
 		type: "spell",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage19",
+		id: "mage019",
 		name: "Kirin Tor Mage",
 		class: "Mage",
 		type: "minion",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage20",
+		id: "mage020",
 		name: "Mana Wyrm",
 		class: "Mage",
 		type: "minion",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage21",
+		id: "mage021",
 		name: "Mirror Entity",
 		class: "Mage",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage22",
+		id: "mage022",
 		name: "Pyroblast",
 		class: "Mage",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage23",
+		id: "mage023",
 		name: "Sorcerer's Apprentice",
 		class: "Mage",
 		type: "minion",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage24",
+		id: "mage024",
 		name: "Spellbender",
 		class: "Mage",
 		type: "spell",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "mage25",
+		id: "mage025",
 		name: "Vaporise",
 		class: "Mage",
 		type: "spell",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "mage26",
+		id: "mage026",
 		name: "Duplicate",
 		class: "Mage",
 		type: "spell",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "mage27",
+		id: "mage027",
 		name: "Echo of Medivh",
 		class: "Mage",
 		type: "spell",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "mage28",
+		id: "mage028",
 		name: "Flame Leviathon",
 		class: "Mage",
 		type: "minion",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "mage29",
+		id: "mage029",
 		name: "Flamecannon",
 		class: "Mage",
 		type: "spell",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "mage30",
+		id: "mage030",
 		name: "Goblin Blastmage",
 		class: "Mage",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "mage31",
+		id: "mage031",
 		name: "Snowchugger",
 		class: "Mage",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "mage32",
+		id: "mage032",
 		name: "Soot Spewer",
 		class: "Mage",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "mage33",
+		id: "mage033",
 		name: "Unstable Portal",
 		class: "Mage",
 		type: "spell",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "mage34",
+		id: "mage034",
 		name: "Wee Spellstopper",
 		class: "Mage",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "mage35",
+		id: "mage035",
 		name: "Dragon's Breath",
 		class: "Mage",
 		type: "spell",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "mage36",
+		id: "mage036",
 		name: "Flamewaker",
 		class: "Mage",
 		type: "minion",

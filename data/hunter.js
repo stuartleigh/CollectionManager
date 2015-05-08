@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "hunter01",
+		id: "hunter001",
 		name: "Animal Companion",
 		class: "Hunter",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter02",
+		id: "hunter002",
 		name: "Arcane Shot",
 		class: "Hunter",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter03",
+		id: "hunter003",
 		name: "Houndmaster",
 		class: "Hunter",
 		type: "minion",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter04",
+		id: "hunter004",
 		name: "Hunter's Mark",
 		class: "Hunter",
 		type: "spell",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter05",
+		id: "hunter005",
 		name: "Kill Command",
 		class: "Hunter",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter06",
+		id: "hunter006",
 		name: "Multi-Shot",
 		class: "Hunter",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter07",
+		id: "hunter007",
 		name: "Starving Buzzard",
 		class: "Hunter",
 		type: "minion",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter08",
+		id: "hunter008",
 		name: "Timber Wolf",
 		class: "Hunter",
 		type: "minion",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter09",
+		id: "hunter009",
 		name: "Tracking",
 		class: "Hunter",
 		type: "spell",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter10",
+		id: "hunter010",
 		name: "Tundra Rhino",
 		class: "Hunter",
 		type: "minion",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "hunter11",
+		id: "hunter011",
 		name: "Bestial Wrath",
 		class: "Hunter",
 		type: "spell",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter12",
+		id: "hunter012",
 		name: "Deadly Shot",
 		class: "Hunter",
 		type: "spell",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter13",
+		id: "hunter013",
 		name: "Eaglehorn Bow",
 		class: "Hunter",
 		type: "weapon",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter14",
+		id: "hunter014",
 		name: "Explosive Shot",
 		class: "Hunter",
 		type: "spell",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter15",
+		id: "hunter015",
 		name: "Explosive Trap",
 		class: "Hunter",
 		type: "spell",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter16",
+		id: "hunter016",
 		name: "Flare",
 		class: "Hunter",
 		type: "spell",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter17",
+		id: "hunter017",
 		name: "Freezing Trap",
 		class: "Hunter",
 		type: "spell",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter18",
+		id: "hunter018",
 		name: "Gladiator's Longbow",
 		class: "Hunter",
 		type: "weapon",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter19",
+		id: "hunter019",
 		name: "King Krush",
 		class: "Hunter",
 		type: "minion",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "hunter20",
+		id: "hunter020",
 		name: "Misdirection",
 		class: "Hunter",
 		type: "spell",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter21",
+		id: "hunter021",
 		name: "Savannah Highmane",
 		class: "Hunter",
 		type: "minion",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter22",
+		id: "hunter022",
 		name: "Scavenging Hyena",
 		class: "Hunter",
 		type: "minion",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter23",
+		id: "hunter023",
 		name: "Snake Trap",
 		class: "Hunter",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter24",
+		id: "hunter024",
 		name: "Snipe",
 		class: "Hunter",
 		type: "spell",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter25",
+		id: "hunter025",
 		name: "Unleash the Hounds",
 		class: "Hunter",
 		type: "spell",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "hunter26",
+		id: "hunter026",
 		name: "Webspinner",
 		class: "Hunter",
 		type: "minion",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "hunter27",
+		id: "hunter027",
 		name: "Call Pet",
 		class: "Hunter",
 		type: "spell",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter28",
+		id: "hunter028",
 		name: "Cobra Shot",
 		class: "Hunter",
 		type: "spell",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter29",
+		id: "hunter029",
 		name: "Feign Death",
 		class: "Hunter",
 		type: "spell",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter30",
+		id: "hunter030",
 		name: "Gahz'rilla",
 		class: "Hunter",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "hunter31",
+		id: "hunter031",
 		name: "Glaivezooka",
 		class: "Hunter",
 		type: "weapon",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter32",
+		id: "hunter032",
 		name: "King of Beasts",
 		class: "Hunter",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter33",
+		id: "hunter033",
 		name: "Metaltooth Leaper",
 		class: "Hunter",
 		type: "minion",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter34",
+		id: "hunter034",
 		name: "Steamwheedle Sniper",
 		class: "Hunter",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "hunter35",
+		id: "hunter035",
 		name: "Core Rager",
 		class: "Hunter",
 		type: "minion",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "hunter36",
+		id: "hunter036",
 		name: "Quick Shot",
 		class: "Hunter",
 		type: "spell",

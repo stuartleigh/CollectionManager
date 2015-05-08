@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "rogue01",
+		id: "rogue001",
 		name: "Assassin's Blade",
 		class: "Rogue",
 		type: "weapon",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue02",
+		id: "rogue002",
 		name: "Assassinate",
 		class: "Rogue",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue03",
+		id: "rogue003",
 		name: "Backstab",
 		class: "Rogue",
 		type: "spell",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue04",
+		id: "rogue004",
 		name: "Deadly Poison",
 		class: "Rogue",
 		type: "spell",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue05",
+		id: "rogue005",
 		name: "Fan of Knives",
 		class: "Rogue",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue06",
+		id: "rogue006",
 		name: "Sap",
 		class: "Rogue",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue07",
+		id: "rogue007",
 		name: "Shiv",
 		class: "Rogue",
 		type: "spell",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue08",
+		id: "rogue008",
 		name: "Sinister Strike",
 		class: "Rogue",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue09",
+		id: "rogue009",
 		name: "Sprint",
 		class: "Rogue",
 		type: "spell",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue10",
+		id: "rogue010",
 		name: "Vanish",
 		class: "Rogue",
 		type: "spell",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "rogue11",
+		id: "rogue011",
 		name: "Betrayal",
 		class: "Rogue",
 		type: "spell",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue12",
+		id: "rogue012",
 		name: "Blade Flurry",
 		class: "Rogue",
 		type: "spell",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue13",
+		id: "rogue013",
 		name: "Cold Blood",
 		class: "Rogue",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue14",
+		id: "rogue014",
 		name: "Conceal",
 		class: "Rogue",
 		type: "spell",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue15",
+		id: "rogue015",
 		name: "Defias Ringleader",
 		class: "Rogue",
 		type: "minion",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue16",
+		id: "rogue016",
 		name: "Edwin VanCleef",
 		class: "Rogue",
 		type: "minion",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "rogue17",
+		id: "rogue017",
 		name: "Eviscerate",
 		class: "Rogue",
 		type: "spell",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue18",
+		id: "rogue018",
 		name: "Headcrack",
 		class: "Rogue",
 		type: "spell",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue19",
+		id: "rogue019",
 		name: "Kidnapper",
 		class: "Rogue",
 		type: "minion",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue20",
+		id: "rogue020",
 		name: "Master of Disguide",
 		class: "Rogue",
 		type: "minion",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue21",
+		id: "rogue021",
 		name: "Patient Assassin",
 		class: "Rogue",
 		type: "minion",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue22",
+		id: "rogue022",
 		name: "Perdition's Blade",
 		class: "Rogue",
 		type: "weapon",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue23",
+		id: "rogue023",
 		name: "Preparation",
 		class: "Rogue",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue24",
+		id: "rogue024",
 		name: "Shadowstep",
 		class: "Rogue",
 		type: "spell",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue25",
+		id: "rogue025",
 		name: "SI:7 Agent",
 		class: "Rogue",
 		type: "minion",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "rogue26",
+		id: "rogue026",
 		name: "Anub'ar Ambusher",
 		class: "Rogue",
 		type: "minion",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "rogue27",
+		id: "rogue027",
 		name: "Cogmaster's Wrench",
 		class: "Rogue",
 		type: "weapon",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue28",
+		id: "rogue028",
 		name: "Goblin Auto-Barber",
 		class: "Rogue",
 		type: "minion",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue29",
+		id: "rogue029",
 		name: "Iron Sensei",
 		class: "Rogue",
 		type: "minion",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue30",
+		id: "rogue030",
 		name: "Ogre Ninja",
 		class: "Rogue",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue31",
+		id: "rogue031",
 		name: "One-eyed Cheat",
 		class: "Rogue",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue32",
+		id: "rogue032",
 		name: "Sabotage",
 		class: "Rogue",
 		type: "spell",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue33",
+		id: "rogue033",
 		name: "Tinker's Sharpsword Oil",
 		class: "Rogue",
 		type: "spell",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue34",
+		id: "rogue034",
 		name: "Trade Prince Gallywix",
 		class: "Rogue",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "rogue35",
+		id: "rogue035",
 		name: "Dark Iron Skulker",
 		class: "Rogue",
 		type: "minion",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "rogue36",
+		id: "rogue036",
 		name: "Gang Up",
 		class: "Rogue",
 		type: "spell",

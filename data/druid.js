@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "druid01",
+		id: "druid001",
 		name: "Claw",
 		class: "Druid",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid02",
+		id: "druid002",
 		name: "Healing Touch",
 		class: "Druid",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid03",
+		id: "druid003",
 		name: "Innervate",
 		class: "Druid",
 		type: "spell",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid04",
+		id: "druid004",
 		name: "Ironbark Protector",
 		class: "Druid",
 		type: "minion",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid05",
+		id: "druid005",
 		name: "Mark of the Wild",
 		class: "Druid",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid06",
+		id: "druid006",
 		name: "Moonfire",
 		class: "Druid",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid07",
+		id: "druid007",
 		name: "Savage Roar",
 		class: "Druid",
 		type: "spell",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid08",
+		id: "druid008",
 		name: "Starfire",
 		class: "Druid",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid09",
+		id: "druid009",
 		name: "Swipe",
 		class: "Druid",
 		type: "spell",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid10",
+		id: "druid010",
 		name: "Wild Growth",
 		class: "Druid",
 		type: "spell",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "druid10",
+		id: "druid010",
 		name: "Ancient of Lore",
 		class: "Druid",
 		type: "minion",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid11",
+		id: "druid011",
 		name: "Ancient of War",
 		class: "Druid",
 		type: "minion",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid12",
+		id: "druid012",
 		name: "Bite",
 		class: "Druid",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid13",
+		id: "druid013",
 		name: "Cenarius",
 		class: "Druid",
 		type: "minion",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "druid14",
+		id: "druid014",
 		name: "Druid of the Claw",
 		class: "Druid",
 		type: "minion",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid15",
+		id: "druid015",
 		name: "Force of Nature",
 		class: "Druid",
 		type: "spell",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid16",
+		id: "druid016",
 		name: "Keeper of the Grove",
 		class: "Druid",
 		type: "minion",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid17",
+		id: "druid017",
 		name: "Mark of Nature",
 		class: "Druid",
 		type: "spell",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid18",
+		id: "druid018",
 		name: "Naturalize",
 		class: "Druid",
 		type: "spell",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid19",
+		id: "druid019",
 		name: "Nourish",
 		class: "Druid",
 		type: "spell",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid20",
+		id: "druid020",
 		name: "Power of the Wild",
 		class: "Druid",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid21",
+		id: "druid021",
 		name: "Savagery",
 		class: "Druid",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid22",
+		id: "druid022",
 		name: "Soul of the Forest",
 		class: "Druid",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid23",
+		id: "druid023",
 		name: "Starfall",
 		class: "Druid",
 		type: "spell",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "druid24",
+		id: "druid024",
 		name: "Wrath",
 		class: "Druid",
 		type: "spell",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "druid25",
+		id: "druid025",
 		name: "Poison Seeds",
 		class: "Druid",
 		type: "spell",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "druid26",
+		id: "druid026",
 		name: "Anodized Robo Cub",
 		class: "Druid",
 		type: "minion",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "druid27",
+		id: "druid027",
 		name: "Dark Whispers",
 		class: "Druid",
 		type: "spell",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "druid28",
+		id: "druid028",
 		name: "Druid of the Fang",
 		class: "Druid",
 		type: "minion",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "druid29",
+		id: "druid029",
 		name: "Grove Tender",
 		class: "Druid",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "druid30",
+		id: "druid030",
 		name: "Malorne",
 		class: "Druid",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "druid31",
+		id: "druid031",
 		name: "Mech-Bear-Cat",
 		class: "Druid",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "druid32",
+		id: "druid032",
 		name: "Recycle",
 		class: "Druid",
 		type: "spell",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "druid33",
+		id: "druid033",
 		name: "Tree of Life",
 		class: "Druid",
 		type: "spell",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "druid34",
+		id: "druid034",
 		name: "Druid of the Flame",
 		class: "Druid",
 		type: "minion",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "druid35",
+		id: "druid035",
 		name: "Volcanic Lumberer",
 		class: "Druid",
 		type: "minion",

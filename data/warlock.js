@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "warlock01",
+		id: "warlock001",
 		name: "Corruption",
 		class: "Warlock",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock02",
+		id: "warlock002",
 		name: "Drain Life",
 		class: "Warlock",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock03",
+		id: "warlock003",
 		name: "Dread Infernal",
 		class: "Warlock",
 		type: "minion",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock04",
+		id: "warlock004",
 		name: "Hellfire",
 		class: "Warlock",
 		type: "spell",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock05",
+		id: "warlock005",
 		name: "Mortal Coil",
 		class: "Warlock",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock06",
+		id: "warlock006",
 		name: "Sacrificial Pact",
 		class: "Warlock",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock07",
+		id: "warlock007",
 		name: "Shadow Bolt",
 		class: "Warlock",
 		type: "spell",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock08",
+		id: "warlock008",
 		name: "Soulfire",
 		class: "Warlock",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock09",
+		id: "warlock009",
 		name: "Succubus",
 		class: "Warlock",
 		type: "minion",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock10",
+		id: "warlock010",
 		name: "Voidwalker",
 		class: "Warlock",
 		type: "minion",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "warlock11",
+		id: "warlock011",
 		name: "Bane of Doom",
 		class: "Warlock",
 		type: "spell",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock12",
+		id: "warlock012",
 		name: "Blood Imp",
 		class: "Warlock",
 		type: "minion",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock13",
+		id: "warlock013",
 		name: "Demonfire",
 		class: "Warlock",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock14",
+		id: "warlock014",
 		name: "Doomguard",
 		class: "Warlock",
 		type: "minion",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock15",
+		id: "warlock015",
 		name: "Felguard",
 		class: "Warlock",
 		type: "minion",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock16",
+		id: "warlock016",
 		name: "Flame Imp",
 		class: "Warlock",
 		type: "minion",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock17",
+		id: "warlock017",
 		name: "Lord Jaraxxus",
 		class: "Warlock",
 		type: "minion",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "warlock18",
+		id: "warlock018",
 		name: "Pit Lord",
 		class: "Warlock",
 		type: "minion",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock19",
+		id: "warlock019",
 		name: "Power Overwhelming",
 		class: "Warlock",
 		type: "spell",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock20",
+		id: "warlock020",
 		name: "Sense Demons",
 		class: "Warlock",
 		type: "spell",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock21",
+		id: "warlock021",
 		name: "Shadowflame",
 		class: "Warlock",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock22",
+		id: "warlock022",
 		name: "Siphon Soul",
 		class: "Warlock",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock23",
+		id: "warlock023",
 		name: "Summoning Portal",
 		class: "Warlock",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock24",
+		id: "warlock024",
 		name: "Twisting Nether",
 		class: "Warlock",
 		type: "spell",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock25",
+		id: "warlock025",
 		name: "Void Terror",
 		class: "Warlock",
 		type: "minion",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "warlock26",
+		id: "warlock026",
 		name: "Voidcaller",
 		class: "Warlock",
 		type: "minion",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "warlock27",
+		id: "warlock027",
 		name: "Anima Golem",
 		class: "Warlock",
 		type: "minion",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock28",
+		id: "warlock028",
 		name: "Darkbomb",
 		class: "Warlock",
 		type: "spell",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock29",
+		id: "warlock029",
 		name: "Demonheart",
 		class: "Warlock",
 		type: "spell",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock30",
+		id: "warlock030",
 		name: "Fel Cannon",
 		class: "Warlock",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock31",
+		id: "warlock031",
 		name: "Floating Watcher",
 		class: "Warlock",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock32",
+		id: "warlock032",
 		name: "Imp-losion",
 		class: "Warlock",
 		type: "spell",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock33",
+		id: "warlock033",
 		name: "Mal'Ganis",
 		class: "Warlock",
 		type: "minion",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "warlock34",
+		id: "warlock034",
 		name: "Mistress of Pain",
 		class: "Warlock",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "warlock35",
+		id: "warlock035",
 		name: "Demonwrath",
 		class: "Warlock",
 		type: "spell",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "warlock36",
+		id: "warlock036",
 		name: "Imp Gang Boss",
 		class: "Warlock",
 		type: "minion",

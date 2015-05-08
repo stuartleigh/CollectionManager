@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "priest01",
+		id: "priest001",
 		name: "Divine Spirit",
 		class: "Priest",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest02",
+		id: "priest002",
 		name: "Holy Nova",
 		class: "Priest",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest03",
+		id: "priest003",
 		name: "Holy Smite",
 		class: "Priest",
 		type: "spell",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest04",
+		id: "priest004",
 		name: "Mind Blast",
 		class: "Priest",
 		type: "spell",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest05",
+		id: "priest005",
 		name: "Mind Control",
 		class: "Priest",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest06",
+		id: "priest006",
 		name: "Mind Vision",
 		class: "Priest",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest07",
+		id: "priest007",
 		name: "Northshire Cleric",
 		class: "Priest",
 		type: "minion",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest08",
+		id: "priest008",
 		name: "Power Word: Shield",
 		class: "Priest",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest09",
+		id: "priest009",
 		name: "Shadow Word: Death",
 		class: "Priest",
 		type: "spell",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest10",
+		id: "priest010",
 		name: "Shadow Word: Pain",
 		class: "Priest",
 		type: "spell",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "priest11",
+		id: "priest011",
 		name: "Auchenai Soulpriest",
 		class: "Priest",
 		type: "minion",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest12",
+		id: "priest012",
 		name: "Cabal Shadow Priest",
 		class: "Priest",
 		type: "minion",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest13",
+		id: "priest013",
 		name: "Circle of Healing",
 		class: "Priest",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest14",
+		id: "priest014",
 		name: "Holy Fire",
 		class: "Priest",
 		type: "spell",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest15",
+		id: "priest015",
 		name: "Inner Fire",
 		class: "Priest",
 		type: "spell",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest16",
+		id: "priest016",
 		name: "Lightspawn",
 		class: "Priest",
 		type: "minion",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest17",
+		id: "priest017",
 		name: "Lightwell",
 		class: "Priest",
 		type: "minion",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest18",
+		id: "priest018",
 		name: "Mass Dispel",
 		class: "Priest",
 		type: "spell",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest19",
+		id: "priest019",
 		name: "Mindgames",
 		class: "Priest",
 		type: "spell",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest20",
+		id: "priest020",
 		name: "Prophet Velen",
 		class: "Priest",
 		type: "minion",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "priest21",
+		id: "priest021",
 		name: "Shadow Madness",
 		class: "Priest",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest22",
+		id: "priest022",
 		name: "Shadowform",
 		class: "Priest",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest23",
+		id: "priest023",
 		name: "Silence",
 		class: "Priest",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest24",
+		id: "priest024",
 		name: "Temple Enforcer",
 		class: "Priest",
 		type: "minion",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "priest25",
+		id: "priest025",
 		name: "Thoughsteal",
 		class: "Priest",
 		type: "spell",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "priest26",
+		id: "priest026",
 		name: "Dark Cultist",
 		class: "Priest",
 		type: "minion",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "priest27",
+		id: "priest027",
 		name: "Light of the Naaru",
 		class: "Priest",
 		type: "spell",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest28",
+		id: "priest028",
 		name: "Lightbomb",
 		class: "Priest",
 		type: "spell",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest29",
+		id: "priest029",
 		name: "Shadowbomber",
 		class: "Priest",
 		type: "minion",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest30",
+		id: "priest030",
 		name: "Shadowboxer",
 		class: "Priest",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest31",
+		id: "priest031",
 		name: "Shrinkmeister",
 		class: "Priest",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest32",
+		id: "priest032",
 		name: "Upgraded Repair Bot",
 		class: "Priest",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest33",
+		id: "priest033",
 		name: "Velen's Chosen",
 		class: "Priest",
 		type: "spell",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "priest34",
+		id: "priest034",
 		name: "Vol'jin",
 		class: "Priest",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "priest35",
+		id: "priest035",
 		name: "Resurrect",
 		class: "Priest",
 		type: "spell",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "priest36",
+		id: "priest036",
 		name: "Twilight Whelp",
 		class: "Priest",
 		type: "minion",

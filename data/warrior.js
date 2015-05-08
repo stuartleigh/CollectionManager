@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "warrior01",
+		id: "warrior001",
 		name: "Arcanite Reaper",
 		class: "Warrior",
 		type: "weapon",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior02",
+		id: "warrior002",
 		name: "Charge",
 		class: "Warrior",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior03",
+		id: "warrior003",
 		name: "Cleave",
 		class: "Warrior",
 		type: "spell",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior04",
+		id: "warrior004",
 		name: "Execute",
 		class: "Warrior",
 		type: "spell",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior05",
+		id: "warrior005",
 		name: "Fiery War Axe",
 		class: "Warrior",
 		type: "weapon",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior06",
+		id: "warrior006",
 		name: "Heroic Strike",
 		class: "Warrior",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior07",
+		id: "warrior007",
 		name: "Kor'kron Elite",
 		class: "Warrior",
 		type: "minion",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior08",
+		id: "warrior008",
 		name: "Shield Block",
 		class: "Warrior",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior09",
+		id: "warrior009",
 		name: "Warsong Commander",
 		class: "Warrior",
 		type: "minion",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior10",
+		id: "warrior010",
 		name: "Whirlwind",
 		class: "Warrior",
 		type: "spell",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "warrior11",
+		id: "warrior011",
 		name: "Arathi Weaponsmith",
 		class: "Warrior",
 		type: "minion",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior12",
+		id: "warrior012",
 		name: "Armorsmith",
 		class: "Warrior",
 		type: "minion",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior13",
+		id: "warrior013",
 		name: "Battle Rage",
 		class: "Warrior",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior14",
+		id: "warrior014",
 		name: "Brawl",
 		class: "Warrior",
 		type: "spell",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior15",
+		id: "warrior015",
 		name: "Commanding Shout",
 		class: "Warrior",
 		type: "spell",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior16",
+		id: "warrior016",
 		name: "Cruel Taskmaster",
 		class: "Warrior",
 		type: "minion",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior17",
+		id: "warrior017",
 		name: "Frothing Berserker",
 		class: "Warrior",
 		type: "minion",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior18",
+		id: "warrior018",
 		name: "Gorehowl",
 		class: "Warrior",
 		type: "weapon",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior19",
+		id: "warrior019",
 		name: "Grommash Hellscream",
 		class: "Warrior",
 		type: "minion",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "warrior20",
+		id: "warrior020",
 		name: "Inner Rage",
 		class: "Warrior",
 		type: "spell",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior21",
+		id: "warrior021",
 		name: "Mortal Strike",
 		class: "Warrior",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior22",
+		id: "warrior022",
 		name: "Rampage",
 		class: "Warrior",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior23",
+		id: "warrior023",
 		name: "Shield Slam",
 		class: "Warrior",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior24",
+		id: "warrior024",
 		name: "Slam",
 		class: "Warrior",
 		type: "spell",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior25",
+		id: "warrior025",
 		name: "Upgrade",
 		class: "Warrior",
 		type: "spell",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "warrior26",
+		id: "warrior026",
 		name: "Death's Bite",
 		class: "Warrior",
 		type: "weapon",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "warrior27",
+		id: "warrior027",
 		name: "Bouncing Blade",
 		class: "Warrior",
 		type: "spell",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior28",
+		id: "warrior028",
 		name: "Crush",
 		class: "Warrior",
 		type: "spell",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior29",
+		id: "warrior029",
 		name: "Iron Juggernaut",
 		class: "Warrior",
 		type: "minion",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "warrior30",
+		id: "warrior030",
 		name: "Ogre Warmaul",
 		class: "Warrior",
 		type: "weapon",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior31",
+		id: "warrior031",
 		name: "Screwjank Clunker",
 		class: "Warrior",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior32",
+		id: "warrior032",
 		name: "Shieldmaiden",
 		class: "Warrior",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior33",
+		id: "warrior033",
 		name: "Siege Engine",
 		class: "Warrior",
 		type: "minion",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior34",
+		id: "warrior034",
 		name: "Warbot",
 		class: "Warrior",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "warrior35",
+		id: "warrior035",
 		name: "Axe Flinger",
 		class: "Warrior",
 		type: "minion",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "warrior36",
+		id: "warrior036",
 		name: "Revenge",
 		class: "Warrior",
 		type: "spell",

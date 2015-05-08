@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "shaman01",
+		id: "shaman001",
 		name: "Ancestral Healing",
 		class: "Shaman",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman02",
+		id: "shaman002",
 		name: "Bloodlust",
 		class: "Shaman",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman03",
+		id: "shaman003",
 		name: "Fire Elemental",
 		class: "Shaman",
 		type: "minion",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman04",
+		id: "shaman004",
 		name: "Flametongue Totem",
 		class: "Shaman",
 		type: "minion",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman05",
+		id: "shaman005",
 		name: "Frost Shock",
 		class: "Shaman",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman06",
+		id: "shaman006",
 		name: "Hex",
 		class: "Shaman",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman07",
+		id: "shaman007",
 		name: "Rockbiter Weapon",
 		class: "Shaman",
 		type: "spell",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman08",
+		id: "shaman008",
 		name: "Totemic Might",
 		class: "Shaman",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman09",
+		id: "shaman009",
 		name: "Windfury",
 		class: "Shaman",
 		type: "spell",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman10",
+		id: "shaman010",
 		name: "Windspeaker",
 		class: "Shaman",
 		type: "minion",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "shaman11",
+		id: "shaman011",
 		name: "Al'Akir the Windlord",
 		class: "Shaman",
 		type: "minion",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 1,
 	},
 	{
-		id: "shaman12",
+		id: "shaman012",
 		name: "Ancestral Spirit",
 		class: "Shaman",
 		type: "spell",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman13",
+		id: "shaman013",
 		name: "Doomhammer",
 		class: "Shaman",
 		type: "weapon",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman14",
+		id: "shaman014",
 		name: "Dust Devil",
 		class: "Shaman",
 		type: "minion",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman15",
+		id: "shaman015",
 		name: "Earth Elemental",
 		class: "Shaman",
 		type: "minion",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman16",
+		id: "shaman016",
 		name: "Earth Shock",
 		class: "Shaman",
 		type: "spell",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman17",
+		id: "shaman017",
 		name: "Far Sight",
 		class: "Shaman",
 		type: "spell",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman18",
+		id: "shaman018",
 		name: "Feral Spirit",
 		class: "Shaman",
 		type: "spell",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman19",
+		id: "shaman019",
 		name: "Forked Lightning",
 		class: "Shaman",
 		type: "spell",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman20",
+		id: "shaman020",
 		name: "Lava Burst",
 		class: "Shaman",
 		type: "spell",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman21",
+		id: "shaman021",
 		name: "Lightning Bolt",
 		class: "Shaman",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman22",
+		id: "shaman022",
 		name: "Lightning Storm",
 		class: "Shaman",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman23",
+		id: "shaman023",
 		name: "Mana Tide Totem",
 		class: "Shaman",
 		type: "minion",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman24",
+		id: "shaman024",
 		name: "Stormforged Axe",
 		class: "Shaman",
 		type: "weapon",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman25",
+		id: "shaman025",
 		name: "Unbound Elemental",
 		class: "Shaman",
 		type: "minion",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "shaman26",
+		id: "shaman026",
 		name: "Reincarnate",
 		class: "Shaman",
 		type: "spell",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "shaman27",
+		id: "shaman027",
 		name: "Ancestor's Call",
 		class: "Shaman",
 		type: "spell",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman28",
+		id: "shaman028",
 		name: "Crackle",
 		class: "Shaman",
 		type: "spell",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman29",
+		id: "shaman029",
 		name: "Dunemaul Shaman",
 		class: "Shaman",
 		type: "minion",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman30",
+		id: "shaman030",
 		name: "Neptulon",
 		class: "Shaman",
 		type: "minion",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "shaman31",
+		id: "shaman031",
 		name: "Powermace",
 		class: "Shaman",
 		type: "weapon",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman32",
+		id: "shaman032",
 		name: "Siltfin Spiritwalker",
 		class: "Shaman",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman33",
+		id: "shaman033",
 		name: "Vitality Totem",
 		class: "Shaman",
 		type: "minion",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman34",
+		id: "shaman034",
 		name: "Whirling Zap-o-matic",
 		class: "Shaman",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "shaman35",
+		id: "shaman035",
 		name: "Fireguard Destroyer",
 		class: "Shaman",
 		type: "minion",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "shaman36",
+		id: "shaman036",
 		name: "Lava Shock",
 		class: "Shaman",
 		type: "spell",

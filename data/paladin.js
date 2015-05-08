@@ -1,6 +1,6 @@
 var basic = [
 	{
-		id: "paladin01",
+		id: "paladin001",
 		name: "Blessing of Kings",
 		class: "Paladin",
 		type: "spell",
@@ -11,7 +11,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin02",
+		id: "paladin002",
 		name: "Blessing of Might",
 		class: "Paladin",
 		type: "spell",
@@ -22,7 +22,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin03",
+		id: "paladin003",
 		name: "Consecration",
 		class: "Paladin",
 		type: "spell",
@@ -33,7 +33,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin04",
+		id: "paladin004",
 		name: "Guardian of Kings",
 		class: "Paladin",
 		type: "minion",
@@ -44,7 +44,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin05",
+		id: "paladin005",
 		name: "Hammer of Wrath",
 		class: "Paladin",
 		type: "spell",
@@ -55,7 +55,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin06",
+		id: "paladin006",
 		name: "Hand of Protection",
 		class: "Paladin",
 		type: "spell",
@@ -66,7 +66,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin07",
+		id: "paladin007",
 		name: "Holy Light",
 		class: "Paladin",
 		type: "spell",
@@ -77,7 +77,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin08",
+		id: "paladin008",
 		name: "Humility",
 		class: "Paladin",
 		type: "spell",
@@ -88,7 +88,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin09",
+		id: "paladin009",
 		name: "Light's Justice",
 		class: "Paladin",
 		type: "weapon",
@@ -99,7 +99,7 @@ var basic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin10",
+		id: "paladin010",
 		name: "Truesilver Champion",
 		class: "Paladin",
 		type: "weapon",
@@ -113,7 +113,7 @@ var basic = [
 
 var classic = [
 	{
-		id: "paladin11",
+		id: "paladin011",
 		name: "Aldor Peacekeeper",
 		class: "Paladin",
 		type: "minion",
@@ -124,7 +124,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin12",
+		id: "paladin012",
 		name: "Argent Protector",
 		class: "Paladin",
 		type: "minion",
@@ -135,7 +135,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin13",
+		id: "paladin013",
 		name: "Avenging Wrath",
 		class: "Paladin",
 		type: "spell",
@@ -146,7 +146,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin14",
+		id: "paladin014",
 		name: "Blessed Champion",
 		class: "Paladin",
 		type: "spell",
@@ -157,7 +157,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin15",
+		id: "paladin015",
 		name: "Blessing of Wisdom",
 		class: "Paladin",
 		type: "spell",
@@ -168,7 +168,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin16",
+		id: "paladin016",
 		name: "Divine Favor",
 		class: "Paladin",
 		type: "spell",
@@ -179,7 +179,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin17",
+		id: "paladin017",
 		name: "Equality",
 		class: "Paladin",
 		type: "spell",
@@ -190,7 +190,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin18",
+		id: "paladin018",
 		name: "Eye for an Eye",
 		class: "Paladin",
 		type: "spell",
@@ -201,7 +201,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin19",
+		id: "paladin019",
 		name: "Holy Wrath",
 		class: "Paladin",
 		type: "spell",
@@ -212,7 +212,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin20",
+		id: "paladin020",
 		name: "Lay on Hands",
 		class: "Paladin",
 		type: "spell",
@@ -223,7 +223,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin21",
+		id: "paladin021",
 		name: "Noble Sacrifice",
 		class: "Paladin",
 		type: "spell",
@@ -234,7 +234,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin22",
+		id: "paladin022",
 		name: "Redemption",
 		class: "Paladin",
 		type: "spell",
@@ -245,7 +245,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin23",
+		id: "paladin023",
 		name: "Repentance",
 		class: "Paladin",
 		type: "spell",
@@ -256,7 +256,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin24",
+		id: "paladin024",
 		name: "Sword of Justice",
 		class: "Paladin",
 		type: "weapon",
@@ -267,7 +267,7 @@ var classic = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin25",
+		id: "paladin025",
 		name: "Tirion Fordring",
 		class: "Paladin",
 		type: "minion",
@@ -285,7 +285,7 @@ var promotion = [];
 
 var naxxramas = [
 	{
-		id: "paladin26",
+		id: "paladin026",
 		name: "Avenge",
 		class: "Paladin",
 		type: "spell",
@@ -299,7 +299,7 @@ var naxxramas = [
 
 var gvg = [
 	{
-		id: "paladin27",
+		id: "paladin027",
 		name: "Bolvar Fordragon",
 		class: "Paladin",
 		type: "minion",
@@ -310,7 +310,7 @@ var gvg = [
 		maxCount: 1,
 	},
 	{
-		id: "paladin28",
+		id: "paladin028",
 		name: "Cobalt Guardian",
 		class: "Paladin",
 		type: "minion",
@@ -321,7 +321,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin29",
+		id: "paladin029",
 		name: "Coghammer",
 		class: "Paladin",
 		type: "weapon",
@@ -332,7 +332,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin30",
+		id: "paladin030",
 		name: "Muster for Battle",
 		class: "Paladin",
 		type: "spell",
@@ -343,7 +343,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin31",
+		id: "paladin031",
 		name: "Quartermaster",
 		class: "Paladin",
 		type: "minion",
@@ -354,7 +354,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin32",
+		id: "paladin032",
 		name: "Scarlet Purifier",
 		class: "Paladin",
 		type: "minion",
@@ -365,7 +365,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin33",
+		id: "paladin033",
 		name: "Seal of Light",
 		class: "Paladin",
 		type: "spell",
@@ -376,7 +376,7 @@ var gvg = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin34",
+		id: "paladin034",
 		name: "Shielded Minibot",
 		class: "Paladin",
 		type: "minion",
@@ -390,7 +390,7 @@ var gvg = [
 
 var brm = [
 	{
-		id: "paladin35",
+		id: "paladin035",
 		name: "Dragon Consort",
 		class: "Paladin",
 		type: "minion",
@@ -401,7 +401,7 @@ var brm = [
 		maxCount: 2,
 	},
 	{
-		id: "paladin36",
+		id: "paladin036",
 		name: "Solemn Vigil",
 		class: "Paladin",
 		type: "spell",
