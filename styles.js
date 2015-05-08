@@ -5,7 +5,8 @@ var {
 
 var Container = StyleSheet.create({
   Container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: '#1F2636',
   },
 });
 

@@ -279,11 +279,145 @@ var classic = [
 	},
 ];
 
-module.exports = [].concat(basic, classic).sort(function(a, b) {
+var reward = [];
+
+var promotion = [];
+
+var naxxramas = [
+	{
+		id: "druid25",
+		name: "Poison Seeds",
+		class: "Druid",
+		type: "spell",
+		cost: 4,
+		set: "Naxxramas",
+		tribe: null,
+		rarity: "common",
+		maxCount: 2,
+	},
+];
+
+var gvg = [
+	{
+		id: "druid26",
+		name: "Anodized Robo Cub",
+		class: "Druid",
+		type: "minion",
+		cost: 2,
+		set: "GvG",
+		tribe: "mech",
+		rarity: "common",
+		maxCount: 2,
+	},
+	{
+		id: "druid27",
+		name: "Dark Whispers",
+		class: "Druid",
+		type: "spell",
+		cost: 6,
+		set: "GvG",
+		tribe: null,
+		rarity: "epic",
+		maxCount: 2,
+	},
+	{
+		id: "druid28",
+		name: "Druid of the Fang",
+		class: "Druid",
+		type: "minion",
+		cost: 5,
+		set: "GvG",
+		tribe: null,
+		rarity: "common",
+		maxCount: 2,
+	},
+	{
+		id: "druid29",
+		name: "Grove Tender",
+		class: "Druid",
+		type: "minion",
+		cost: 3,
+		set: "GvG",
+		tribe: null,
+		rarity: "rare",
+		maxCount: 2,
+	},
+	{
+		id: "druid30",
+		name: "Malorne",
+		class: "Druid",
+		type: "minion",
+		cost: 7,
+		set: "GvG",
+		tribe: "beast",
+		rarity: "legendary",
+		maxCount: 1,
+	},
+	{
+		id: "druid31",
+		name: "Mech-Bear-Cat",
+		class: "Druid",
+		type: "minion",
+		cost: 6,
+		set: "GvG",
+		tribe: "mech",
+		rarity: "rare",
+		maxCount: 2,
+	},
+	{
+		id: "druid32",
+		name: "Recycle",
+		class: "Druid",
+		type: "spell",
+		cost: 6,
+		set: "GvG",
+		tribe: null,
+		rarity: "rare",
+		maxCount: 2,
+	},
+	{
+		id: "druid33",
+		name: "Tree of Life",
+		class: "Druid",
+		type: "spell",
+		cost: 9,
+		set: "GvG",
+		tribe: null,
+		rarity: "epic",
+		maxCount: 2,
+	},
+];
+
+var brm = [
+	{
+		id: "druid34",
+		name: "Druid of the Flame",
+		class: "Druid",
+		type: "minion",
+		cost: 3,
+		set: "BRM",
+		tribe: null,
+		rarity: "common",
+		maxCount: 2,
+	},
+	{
+		id: "druid35",
+		name: "Volcanic Lumberer",
+		class: "Druid",
+		type: "minion",
+		cost: 9,
+		set: "BRM",
+		tribe: null,
+		rarity: "rare",
+		maxCount: 2,
+	},
+];
+
+module.exports = [].concat(basic, classic, reward, promotion, naxxramas, gvg, brm).sort(function(a, b) {
 	if (a.cost < b.cost) {
 		return -1;
 	} else if (a.cost > b.cost) {
 		return 1;
 	}
-	return a.name < b.name ? -1 : 1
+	return a.name < b.name ? -1 : 1;
 });
