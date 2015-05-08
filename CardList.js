@@ -65,6 +65,8 @@ var Card = React.createClass({
 
 });
 
+// TODO: Search
+
 var CardList = React.createClass({
 
   mixins: [FluxMixin, StoreWatchMixin("CardStore")],

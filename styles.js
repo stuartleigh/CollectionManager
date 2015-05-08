@@ -13,14 +13,12 @@ var Container = StyleSheet.create({
 var CardList = StyleSheet.create({
   Container: {
     flex: 1,
+    backgroundColor: '#1F2636',
     borderColor: '#1F2636',
-    borderLeftWidth: 10,
-    borderRightWidth: 10,
   },
   SectionHeader: {
     flex: 1,
     padding: 10,
-    backgroundColor: '#1F2636',
     borderBottomColor: '#000000',
     borderBottomWidth: 1,
     borderTopColor: '#3C4866',
@@ -41,7 +39,6 @@ var Card = StyleSheet.create({
     borderBottomWidth: 1,
     borderTopColor: '#3C4866',
     borderTopWidth: 1,
-    backgroundColor: '#1F2636',
   },
   'Container--deactive': {
     flex: 1,
@@ -50,32 +47,31 @@ var Card = StyleSheet.create({
     borderBottomWidth: 1,
     borderTopColor: '#3C4866',
     borderTopWidth: 1,
-    backgroundColor: '#1F2636',
-    opacity: 0.8,
+    backgroundColor: '#cccccc',
   },
   'ManaCost--free': {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
     backgroundColor: '#FEFFF8',
   },
   'ManaCost--common': {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
     backgroundColor: '#B7C2BA',
   },
   'ManaCost--rare': {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
     backgroundColor: '#3D74FF',
   },
   'ManaCost--epic': {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
     backgroundColor: '#8746FF',
   },
   'ManaCost--legendary': {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
     backgroundColor: '#FF872F',
   },
   ManaCost__Cost: {
@@ -85,15 +81,16 @@ var Card = StyleSheet.create({
     flex: 1,
     padding: 10,
     borderRightColor: '#000000',
-    borderRightWidth: 1
+    borderRightWidth: 1,
+    borderLeftWidth: 1,
   },
   Name__Name: {
     color: '#ffffff',
     fontWeight: 'bold',
   },
   NormalCount: {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
   },
   NormalCount__Count: {
     textAlign: 'center',
@@ -101,8 +98,8 @@ var Card = StyleSheet.create({
     fontWeight: 'bold',
   },
   GoldCount: {
-    padding: 10,
-    width: 40,
+    padding: 12,
+    width: 44,
     backgroundColor: '#FFD938',
   },
   GoldCount__Count: {
