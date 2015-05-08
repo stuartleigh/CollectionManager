@@ -2,7 +2,30 @@ var basic = [];
 
 var classic = [];
 
-var reward = [];
+var reward = [
+	{
+		id: "neutralXX",         // update
+		name: "Captain's Parrot",
+		class: "Neutral",
+		type: "minion",
+		cost: 2,
+		set: "Classic",
+		tribe: "beast",
+		rarity: "epic",
+		maxCount: 2,
+	},
+	{
+		id: "neutralXX",         // update
+		name: "Old Murk-Eye",
+		class: "Neutral",
+		type: "minion",
+		cost: 4,
+		set: "Classic",
+		tribe: "murloc",
+		rarity: "legendary",
+		maxCount: 1,
+	},
+];
 
 var promotion = [];
 
