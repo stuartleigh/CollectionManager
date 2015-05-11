@@ -26,7 +26,7 @@ var basic = [
 		name: "Innervate",
 		class: "Druid",
 		type: "spell",
-		cost: 0,
+		cost: 12,
 		set: "Basic",
 		tribe: null,
 		rarity: "free",

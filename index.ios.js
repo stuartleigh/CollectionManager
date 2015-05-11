@@ -27,6 +27,7 @@ var CollectionManager = React.createClass({
       <React.NavigatorIOS
         flux={flux}
         style={styles.Container.Container}
+        navigationBarHidden={false}
         initialRoute={{
           title: "Collection Manager",
           component: CardList

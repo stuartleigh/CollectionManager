@@ -6,7 +6,7 @@ var {
   View,
   ListView,
   Image,
-  TouchableHighlight
+  TouchableOpacity
 } = React;
 
 
@@ -45,20 +45,30 @@ var Card = React.createClass({
 
   render() {
     var card = this.props.card;
+    var active = this.state.normal + this.state.gold >= card.maxCount;
+    var gold = this.state.gold >= card.maxCount;
     return (
-      <View style={styles.Card[this.state.normal + this.state.gold < card.maxCount ? 'Container--deactive' : 'Container']}>
-        <View style={styles.Card['ManaCost--' + card.rarity]}>
-          <Text style={styles.Card.ManaCost__Cost}>{card.cost}</Text>
-        </View>
-        <TouchableHighlight onPress={this.handlePress} style={styles.Card.Name}>
-          <Text style={styles.Card.Name__Name}>{card.name}</Text>
-        </TouchableHighlight>
-        <TouchableHighlight onPress={this.handleNormalPress} style={styles.Card.NormalCount}>
-          <Text style={styles.Card.NormalCount__Count}>{this.state.normal}</Text>
-        </TouchableHighlight>
-        <TouchableHighlight onPress={this.handleGoldPress} style={styles.Card.GoldCount}>
-          <Text style={styles.Card.GoldCount__Count}>{this.state.gold}</Text>
-        </TouchableHighlight>
+      <View style={styles.Card[gold ? 'Container--gold' : active ? 'Container' : 'Container--deactive']}>
+        <TouchableOpacity onPress={this.handlePress}>
+          <View style={styles.Card['ManaCost--' + card.rarity]}>
+            <Text style={styles.Card.ManaCost__Cost}>{card.cost}</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={this.handlePress}>
+          <View style={styles.Card.Name}>
+            <Text style={styles.Card.Name__Name}>{card.name}</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={this.handleNormalPress}>
+          <View style={styles.Card.NormalCount}>
+            <Text style={styles.Card.NormalCount__Count}>{this.state.normal}</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={this.handleGoldPress}>
+          <View style={styles.Card.GoldCount}>
+            <Text style={styles.Card.GoldCount__Count}>{this.state.gold}</Text>
+          </View>
+        </TouchableOpacity>
       </View>
     )
   }
@@ -110,7 +120,9 @@ var CardList = React.createClass({
         <ListView 
           dataSource={this.state}
           renderRow={this.renderCard}
-          renderSectionHeader={this.renderSectionHeader} />
+          renderSectionHeader={this.renderSectionHeader} 
+          scrollRenderAheadDistance={1500}
+          removeClippedSubviews={true} />
       </View>
     );
   }
